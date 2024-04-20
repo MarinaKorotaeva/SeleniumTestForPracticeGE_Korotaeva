@@ -14,6 +14,12 @@ public class TestSeleniumForPractice
     [SetUp]
     public void Setup()
     {
+        var options = new ChromeOptions();
+        options.AddArguments("--no-sandbox", "--disable-extensions");
+        driver = new ChromeDriver(options);
+        
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
+        
         Autorization();
     }
     
@@ -92,12 +98,6 @@ public class TestSeleniumForPractice
 
     public void Autorization()
     {
-        var options = new ChromeOptions();
-        options.AddArguments("--no-sandbox", "--disable-extensions");
-        
-        driver = new ChromeDriver(options);
-        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(2);
-        
         driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru");
         
         var login = driver.FindElement(By.Id("Username"));

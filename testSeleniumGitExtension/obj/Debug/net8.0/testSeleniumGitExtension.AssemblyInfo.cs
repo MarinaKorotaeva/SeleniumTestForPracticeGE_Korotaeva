@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testSeleniumGitExtension")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f6e126df3753bdc3c464eb78c9b8dd5e32b3f66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b201d41cb3cd9888e7d6b2e4539d95298227fd1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("testSeleniumGitExtension")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testSeleniumGitExtension")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
