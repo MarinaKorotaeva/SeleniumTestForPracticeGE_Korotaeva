@@ -1,6 +1,31 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f945918_002Daeda_002D4127_002D9d8b_002D0e5ce0a1c591/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Autorization" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=19df7dc9_002Dfbf8_002D46ff_002Dbc88_002D57118c22200b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestSeleniumForPractice" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice.Autorization&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e1dda94_002Df391_002D405a_002D863c_002D39dba2f5d66c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestSeleniumForPractice #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=82024116_002Dae7c_002D4264_002D8cef_002D2a694c0edc8a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestSeleniumForPractice #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a0b237e7_002Dd081_002D42a9_002Da8d2_002D55b12245ee60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Autorization" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bd3ac0fb_002D3afa_002D4988_002Dbd82_002D870f16d772e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestSeleniumForPractice #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e693aa5b_002D2ae2_002D4dbc_002Da428_002D72cee60a412f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="DateOfBirth" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2555DC0A-FE7E-4AE8-997A-CE7B27D0DE33::net8.0::testSeleniumGitExtension.TestSeleniumForPractice.DateOfBirth&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
