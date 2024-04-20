@@ -58,8 +58,7 @@ public class TestSeleniumForPractice
     [Test]
     public void CreateFolder()
     {
-        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(4));
-        wait.Until(ExpectedConditions.UrlContains("https://staff-testing.testkontur.ru/news"));
+        explicitexpectation();
         driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru/files");
         
         Assert.That(driver.Url == "https://staff-testing.testkontur.ru/files",
@@ -81,8 +80,7 @@ public class TestSeleniumForPractice
     [Test]
     public void OnOffEmails()
     {
-        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
-        wait.Until(ExpectedConditions.UrlContains("https://staff-testing.testkontur.ru/news"));
+        explicitexpectation();
         driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru/communities/a75b6656-92dd-4f99-8e8c-7262e8477594");
 
         var actions = driver.FindElement(By.XPath("//*[@id=\"root\"]/section/section[2]/div/div/section/div[2]/div[2]/div[2]/div/span/button"));
@@ -110,6 +108,12 @@ public class TestSeleniumForPractice
         
         var enter = driver.FindElement(By.Name("button"));
         enter.Click(); 
+    }
+
+    public void explicitexpectation() //явное ожидание на главной странице
+    {
+        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(7));
+        wait.Until(ExpectedConditions.UrlContains("https://staff-testing.testkontur.ru/news"));
     }
     
     [TearDown]
